@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color:#f4f6ff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.course h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+}
+.course-wrap{
+   
+    padding: 10px;
+    background-color:white;
+    border-radius: 10px;
+    width: 95%;
+}
+.cover{
+    padding: 25px;
+    background-color:#f4f6ff;
+    width: 500px;
+    border-radius: 10px;
+}
+.course{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+}
+.notification-icon{
+    width: 40px;
+    height: 60px;
+    border-radius: 20%;
+    background-color: #0068ff;
+   }
+.center {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .date h2{
+    font-size: 20px;
+    font-weight: 700;
+    color:#0068ff;
+  }
+  .courses{
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+  .courses-head{
+    display: flex;
+    align-items: center;
+  }
+  .courses-head p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #A2A9C8;
+    margin-right: 10px;
+  }
+ .arrow-left{
+    width:30px;
+    height:20px;
+    margin-right: 10px;
+  
+ }
+ .arrow-right{
+    width:30px;
+    height:20px;
+    
+ }
+ 
+.grid{
+    width:20px;
+    height:20px;
+    border-radius: 50px;
+    
+
+}  
+.list{
+    width:20px;
+    height:20px;
+    background-color: #0068ff;
+    border-radius: 50px;
+   
+}
+
+.container-layout{
+
+    margin-left: 290px;
+}
+
+.card {
+    background-color: #0068FF;
+    border-radius: 15px;
+    padding: 12px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .img {
+    display: flex;
+  }
+  .facebook-img img {
+    width: 155px;
+    height: 155px;
+    padding-right: 10px;
+  }
+  .number {
+    background-color: white;
+    height: 40px;
+    width: 38px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 15px;
+  }
+  .head-para h3,
+  p {
+    color: white;
+  }
+  .enroll-twelve p {
+    padding-top: 15px;
+    padding-right: 5px;
+  }
+  .foot {
+    display: flex;
+    justify-content: space-between;
+  }
+  .enroll-white {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-wrap{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 15px;
+    padding: 20px 0px 10px 0px;
+}
+.progess{
+    margin-top: 22px;
+    margin-left: 10px;
+    background-color: #a2a9c8;
+    height: 8px;
+    width: 310px;
+    border-radius: 20px;
+}
+.enroll-white img{
+    padding-bottom: 5px;
+}
+.progress-grey{
+    margin-top: 22px;
+    margin-left: 10px;
+    background-color:#fbfbfb;
+    height: 8px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.card1 {
+    background-color: #CF74FF;
+    border-radius: 15px;
+    padding: 12px;
+  }
+  .progess1{
+    margin-top: 22px;
+    margin-left: 10px;
+    background-color: #a2a9c8;
+    height: 8px;
+    width: 310px;
+    border-radius: 20px;
+}
+.progress-grey1{
+    margin-top: 22px;
+    margin-left: 10px;
+    background-color:#fbfbfb;
+    height: 8px;
+    width: 70px;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.card2{
+    margin-top:15px;
+    background-color:#FADB39;
+    border-radius: 15px;
+    padding: 12px;
+  }
+  .card3{
+    margin-top:15px;
+    background-color:#ED7071;
+    border-radius: 15px;
+    padding: 12px;
+  }
+.end{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
